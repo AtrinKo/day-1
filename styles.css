@@ -52,7 +52,7 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   background-repeat: no-repeat;
-  background-size: auto 100%;
+  background-size: cover;
   background-position: center;
   border-radius: 1rem;
   transition: width 400ms linear;
@@ -87,13 +87,11 @@ h2 {
     margin: 20px;
     transition: all 250ms linear;
     background-size: cover;
-    cursor: pointer;
-    flex: 0.5;
   }
 
   .active {
     height: 400px;
-    transition: width 250ms linear;
+    transition: height 250ms linear;
   }
 }
 
