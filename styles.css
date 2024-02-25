@@ -54,3 +54,16 @@ body {
 .active {
   width: 800px;
 }
+
+h2 {
+  color: #f1f1f1;
+  font-size: 1.4rem;
+  position: absolute;
+  bottom: 7.5%;
+  margin-left: 10px;
+  opacity: 0;
+}
+
+.header-active {
+  opacity: 1;
+}
