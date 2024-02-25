@@ -14,3 +14,43 @@ body {
   overflow: hidden;
   margin: 0;
 }
+
+.container {
+  display: flex;
+  width: 1200px;
+  height: auto;
+  justify-content: space-between;
+}
+
+.img1 {
+  background: url("img1.jpg");
+}
+
+.img2 {
+  background: url("./img2.jpg");
+}
+
+.img3 {
+  background: url("./img3.jpg");
+}
+
+.img4 {
+  background: url("./img4.jpg");
+}
+
+.img5 {
+  background: url("./img5.jpg");
+}
+
+.img {
+  width: 10%;
+  margin: 0 10px;
+  height: 566px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
+}
+
+.active {
+  width: 800px;
+}
